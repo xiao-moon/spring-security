@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="moon-security-core" />
+        <module name="moon-security-app" />
+        <module name="moon-security-browser" />
+        <module name="moon-security-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="moon-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="moon-security" options="" />
+      <module name="moon-security-app" options="" />
+      <module name="moon-security-browser" options="" />
+      <module name="moon-security-core" options="" />
+      <module name="moon-security-demo" options="" />
+    </option>
+  </component>
+</project>
