@@ -1,0 +1,9 @@
+DROP TABLE  IF EXISTS TB_ROLE_MENU;
+-- Create table
+CREATE TABLE TB_ROLE_MENU
+(
+  role_id BIGINT(20) NOT NULL COMMENT '角色ID',
+  menu_id BIGINT(20) NOT NULL COMMENT '菜单ID'
+)COMMENT = '角色和菜单关联表';
+
+

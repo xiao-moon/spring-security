@@ -1,0 +1,8 @@
+DROP TABLE  IF EXISTS TB_ROLE_DEPT;
+-- Create table
+CREATE TABLE TB_ROLE_DEPT
+(
+  role_id BIGINT(20) NOT NULL COMMENT '角色ID',
+  dept_id BIGINT(20) NOT NULL COMMENT '部门ID'
+)COMMENT = '角色和部门关联表';
+
