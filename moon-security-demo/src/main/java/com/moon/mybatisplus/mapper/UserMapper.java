@@ -1,7 +1,7 @@
-package com.moon.security.mybatisplus.mapper;
+package com.moon.mybatisplus.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.moon.security.mybatisplus.domain.User;
+import com.moon.mybatisplus.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

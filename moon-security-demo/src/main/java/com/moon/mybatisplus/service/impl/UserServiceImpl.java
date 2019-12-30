@@ -1,18 +1,10 @@
-package com.moon.security.mybatisplus.service.impl;
+package com.moon.mybatisplus.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.AbstractLambdaWrapper;
-import com.baomidou.mybatisplus.core.conditions.AbstractWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
-import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.moon.security.mybatisplus.domain.User;
-import com.moon.security.mybatisplus.mapper.UserMapper;
-import com.moon.security.mybatisplus.service.UserService;
+import com.moon.mybatisplus.domain.User;
+import com.moon.mybatisplus.mapper.UserMapper;
+import com.moon.mybatisplus.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.moon.security.mybatisplus.controller;
+package com.moon.mybatisplus.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.moon.security.mybatisplus.domain.User;
-import com.moon.security.mybatisplus.service.UserService;
+import com.moon.mybatisplus.domain.User;
+import com.moon.mybatisplus.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

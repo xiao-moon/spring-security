@@ -1,6 +1,6 @@
-package com.moon.security.mybatisplus.service;
+package com.moon.mybatisplus.service;
 
-import com.moon.security.mybatisplus.domain.User;
+import com.moon.mybatisplus.domain.User;
 
 import java.util.List;
 

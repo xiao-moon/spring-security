@@ -24,7 +24,7 @@ import java.io.IOException;
  **/
 
 /**
- * OncePerRequestFilter:保证自定义的过滤器只会被调用一次
+ * OncePerRequestFilter:保证自定义的过滤器只会被调用一次，继承的过滤器必须是springsecurity提供的过滤器
  */
 public class ValidateCodeFilter extends OncePerRequestFilter {
     private AuthenticationFailureHandler authenticationFailureHandler;

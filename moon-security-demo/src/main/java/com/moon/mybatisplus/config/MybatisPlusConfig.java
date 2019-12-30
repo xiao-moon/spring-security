@@ -1,6 +1,5 @@
-package com.moon.security.mybatisplus.config;
+package com.moon.mybatisplus.config;
 
-import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.github.pagehelper.PageHelper;
 import org.springframework.context.annotation.Bean;

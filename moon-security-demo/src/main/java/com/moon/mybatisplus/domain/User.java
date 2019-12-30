@@ -1,4 +1,4 @@
-package com.moon.security.mybatisplus.domain;
+package com.moon.mybatisplus.domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
