@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<h2>登录页面1</h2>
+<h3>表单登录</h3>
+<form id="form_0" action="/authentication/form" method="post">
+    <p>
+        用户名:
+        <input type="text" name="username" value="">
+    </p>
+
+    <p>
+        密&nbsp;&nbsp;&nbsp;码:
+        <input type="password" name="password" value="">
+
+    </p>
+    <div class="form-inline">
+        验证码:
+        <input type="password" id="password" name="code" class="form-control" style="width: 150px"/>
+        <img id="img" src="/kaptcha/image" alt="picture dismiss"/>
+    </div>
+    <div>
+        <span>记住我:</span>
+        <input type="checkbox" name="remember-me" value="true">
+    </div>
+    <input type="submit"  value="提交">
+</form>
+
+<br><br><br><br>
+<h3>短信登录</h3>
+<form id="form_1" action="/authentication/mobile" method="post">
+    <p>
+        手机号:
+        <input type="text" name="mobile" value="17625924569">
+    </p>
+
+    <div class="form-inline">
+        <input type="text" id="text1" name="code" class="form-control" style="width: 150px"/>
+        <a href="/code/mobile/17625924569">获取手机验证码</a>
+    </div>
+    <div>
+        <span>记住我:</span>
+        <input type="checkbox" name="remember-me" value="true">
+    </div>
+    <input type="submit" value="提交">
+</form>
+<br>
+<h3>社交登录</h3>
+<a href="/qqLogin/callback.do">QQ登录</a>
+
+
+</body>
+</html>

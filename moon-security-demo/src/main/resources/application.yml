@@ -8,15 +8,16 @@ spring:
     # 数据库名称,mysql8以上必须要加这些后缀
     url: jdbc:mysql://localhost:3306/securitydemo?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: 123456
+    password: root   #123456
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数
       initial-size: 5                                       # 初始化连接数
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
-
   session:
     store-type: none #关闭集群的session管理
+  thymeleaf:
+    cache: false
 
 mybatis-plus:
   mapper-locations: classpath:mybatis/*/**.xml
@@ -31,11 +32,5 @@ mybatis-plus:
 #        cache-enabled: false
 #      config-location: classpath:mybatis-config.xml
 
-#自定义登录页的地址
-moon:
-  security:
-    browser:
-      loginPage: /demo-login.html
-      loginType: REDIRECT
 
 

@@ -1,7 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c80171c-4362-47cc-8e6c-75d2609f99b9" name="Default Changelist" comment="" />
+    <list default="true" id="6c80171c-4362-47cc-8e6c-75d2609f99b9" name="Default Changelist" comment="马上要2020年了，在提交一次吧">
+      <change afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/support/SocialUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/kaptcha/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/kaptcha/controller/KaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/kaptcha/exception/KaptchaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/kaptcha/filter/KaptchaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/SmsAutnenticationSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/authentication/SmsAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/authentication/SmsAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/authentication/SmsAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/validate/DefaultSmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/validate/SmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/validate/SmsValidateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/validate/SmsValidateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/mobile/validate/SmsValidateFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/properties/QQProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/properties/SocialProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/MoonConnectionSignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/MoonSpringSocialConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/SocialConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/lost/SocialAutoConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/lost/SocialWebAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/api/QQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/api/QQImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/api/QQUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/config/QQAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/connect/QQAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/connect/QQConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/connect/QQOAuth2Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/social/qq/connect/QQServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/java/com/moon/security/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/application-security.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/resources/moon-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/resources/moon-login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/resources/moon-sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/1-表单登录+图形验证码.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/2-手机号登录.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-1-第三方登录-OAuth2协议.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-2-OAuth2协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-3-OAuth2协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-4-OAuth2协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-5-OAuth2协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/3-6-OAuth2协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/4-记住我remember-me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/5-session管理.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/表单认证及短信认证登录详解.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片详解/表单认证及短信认证登录详解.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/config/BrowserSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/BrowserSevurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/controller/BrowserSecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/authentication/MoonAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/handler/MoonAuthenticationFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/authentication/MoonAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/handler/MoonAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/security/browser/support/SimpleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-browser/src/main/java/com/moon/browser/support/SimpleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/SecurityCoreConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/properties/BrowserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/properties/BrowserProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/properties/LoginType.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/properties/LoginType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/properties/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/properties/SecurityProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/validate/code/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/validate/code/ImageCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/validate/code/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/validate/code/ValidateCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/validate/code/ValidateCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/security/core/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/validate/code/ValidateCodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/src/main/java/com/moon/security/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-demo/src/main/java/com/moon/security/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/须知.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/README.TXT" afterDir="false" />
+    </list>
+    <list id="3b286933-488f-463e-a82b-fece050d3419" name="do not commit" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-app/moon-security-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-app/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-app/target/moon-security-app-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/moon-security-browser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-browser/target/moon-security-browser-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/moon-security-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-core/target/moon-security-core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/moon-security-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/classes/com/moon/security/mybatisplus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/moon-security-demo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/moon-security-demo.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon-security-demo/target/test-classes/com/moon/security/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moon-security-demo/target/test-classes/com/moon/security/UserControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,18 +118,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/moon-security-demo/src/main/resources/application-security.properties" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/moon-security-core/src/main/java/com/moon/core/kaptcha/config/KaptchaConfig.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1V1XGFqTlvBY7N4G9rbo9C9v66a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -29,18 +152,51 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/图片详解" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.querySuccess">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\workspace\spring-security\moon-security-demo\src\main\resources\resources" />
+      <recent name="D:\IDEA\workspace\spring-security\moon-security-demo\src\main\resources\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.moon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\workspace\spring-security\图片详解" />
+      <recent name="D:\IDEA\workspace\spring-security\moon-security-demo\src\main\resources\resources" />
+      <recent name="D:\IDEA\workspace\spring-security\moon-security-demo\src\main\java\com\moon\security\sql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="UserControllerTest.querySuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="moon-security-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.moon.security.*" />
+          <option name="PATTERN" value="com.moon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,11 +212,11 @@
       <module name="moon-security-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.moon.security.*" />
+          <option name="PATTERN" value="com.moon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moon.security.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moon.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,24 +227,13 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6c80171c-4362-47cc-8e6c-75d2609f99b9" name="Default Changelist" comment="" />
+      <changelist id="3b286933-488f-463e-a82b-fece050d3419" name="do not commit" comment="" />
       <created>1576421476136</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,11 +245,63 @@
       <workItem from="1576560313270" duration="31393000" />
       <workItem from="1576774992551" duration="1938000" />
       <workItem from="1576913706357" duration="12343000" />
+      <workItem from="1577161535309" duration="2173000" />
+      <workItem from="1577169557449" duration="1981000" />
+      <workItem from="1577191524814" duration="7598000" />
+      <workItem from="1577235065462" duration="14738000" />
+      <workItem from="1577326813924" duration="3993000" />
+      <workItem from="1577439997257" duration="867000" />
+      <workItem from="1577633336510" duration="2954000" />
+      <workItem from="1577666821385" duration="89000" />
+      <workItem from="1577699274234" duration="1568000" />
+      <workItem from="1577707578338" duration="7868000" />
+      <workItem from="1577753095682" duration="22554000" />
+      <workItem from="1577848387960" duration="15101000" />
+      <workItem from="1577926148391" duration="22327000" />
+      <workItem from="1577960254763" duration="199000" />
+      <workItem from="1577969951711" duration="4556000" />
+      <workItem from="1578012650840" duration="9372000" />
+      <workItem from="1578119644611" duration="30056000" />
+      <workItem from="1578271198708" duration="1232000" />
+      <workItem from="1573039101071" duration="1214000" />
     </task>
+    <task id="LOCAL-00001" summary="上传sql文件">
+      <created>1577193458391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577193458391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="马上要2020年了，在提交一次吧">
+      <created>1577700311825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577700311825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="上传sql文件" />
+    <MESSAGE value="马上要2020年了，在提交一次吧" />
+    <option name="LAST_COMMIT_MESSAGE" value="马上要2020年了，在提交一次吧" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1576560334794">
