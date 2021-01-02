@@ -1,6 +1,5 @@
 package com.moon.core.mobile;
 
-import com.moon.core.kaptcha.filter.KaptchaFilter;
 import com.moon.core.mobile.authentication.SmsAuthenticationFilter;
 import com.moon.core.mobile.authentication.SmsAuthenticationProvider;
 import com.moon.core.mobile.validate.SmsValidateFilter;
@@ -35,8 +34,6 @@ public class SmsAutnenticationSecurityConfig extends SecurityConfigurerAdapter<D
     private UserDetailsService userDetailsService;
 
 
-
-
     @Override
     public void configure(HttpSecurity http) throws Exception {
         SmsAuthenticationFilter smsAuthenticationFilter = new SmsAuthenticationFilter();
@@ -54,8 +51,8 @@ public class SmsAutnenticationSecurityConfig extends SecurityConfigurerAdapter<D
 
 
         http.authenticationProvider(authenticationProvider)
-            .addFilterAfter(smsAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
-            .addFilterBefore(smsValidateFilter,SmsAuthenticationFilter.class);
+                .addFilterAfter(smsAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(smsValidateFilter, SmsAuthenticationFilter.class);
 
     }
 }
